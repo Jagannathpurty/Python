@@ -1,0 +1,11 @@
+
+def pattern(num):
+ for i in range(num):
+    for j in range(i):
+         print(" ",end=" ")
+    for k in range(num-i):
+         print("*",end=" ")
+    print()    
+
+num=int(input())
+pattern(num)    
