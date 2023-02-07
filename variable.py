@@ -1,0 +1,9 @@
+_a=78;
+_b=8;
+print(_a+_b);
+a=8;
+b=90;
+c=76;
+print(a+b+c);
+print(a+b);
+print(a>b);
